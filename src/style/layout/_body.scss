@@ -1,0 +1,23 @@
+@import '../abstracts//mixin';
+@import '../abstracts//function';
+@import '../abstracts//extend';
+@import '../abstracts//variables';
+
+.body{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $main-color;
+  .group-button{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    button{
+      @extend .box;
+      @include style-button();
+      width: set-width(3);
+      
+    }
+  }
+}

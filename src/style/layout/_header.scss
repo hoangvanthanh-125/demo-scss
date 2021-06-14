@@ -1,0 +1,28 @@
+@import '../abstracts/variables';
+.header {
+   display: flex;
+   justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: $second-color;
+   &_left{
+     color: $text-color;
+     background-color: black;
+   }
+   &_middle{
+     color: $text-color;
+     display:flex;
+     flex-direction: row;
+     justify-content: space-around;
+     background-color: black;
+     height: 100%;
+     align-items: center;
+     width: 30%;
+     
+     
+   }
+   &_right{
+    color: $text-color;
+   }
+}
