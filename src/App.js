@@ -5,7 +5,6 @@ import Header from './header';
 function App() {
   return (
     <div className="hi">
-      nhanh 1
      <Header />
      <Body />
      <Footer />
